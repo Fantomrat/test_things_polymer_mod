@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "test_things",
+  "version": "${version}",
+
+  "name": "test_things",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/test_things/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
